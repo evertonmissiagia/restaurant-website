@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte: "Source Sans 3", serif;
+    --cor-destaque-amarelo: #FCCD22;
+    --cor-destaque-laranja: #F17228;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: white;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: var(--fonte);
+    font-weight: 400;
+    padding-top: 1%;
+}
+
+.header__nav__endereço {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.header__nav__pesquisa_login {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.header__nav__pesquisa {
+    border-radius: 15px;
+    padding: 0.5%;
+    width: 250px;
+    text-align: center;
+}
+
+.header__nav__login {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    background-color: var(--cor-destaque-laranja);
+    border-radius: 15px;
+    padding: 3%;
+    font-weight: 600;
+}
+
+.header__nav__login__icon {
+    padding-right: 10px;
+    text-align: center;
+}
