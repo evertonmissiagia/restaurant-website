@@ -68,12 +68,12 @@ body {
     display: flex;
     font-family: var(--fonte);
     background-color: var(--cor-destaque-amarelo);
-
-    margin: 1%;
+    width: 100%;
+    margin-top: 1%;
 }
 
 .main__banner__info {
-    padding: 16%;
+    padding: 13%;
 }
 
 .main__banner__info__titulo {
@@ -95,11 +95,45 @@ body {
 
 .main__banner__pesquisa {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     background-color: white;
-    padding: 8%;
+    padding: 3% 3% 3% 4%;
     border-radius: 20px;
+    gap: 20px;
 
+}
+
+.main__banner__pesquisa__2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.main__banner__button {
+    background-color: #FA6837;
+    color: white;
+    border-radius: 6px;
+    font-family: var(--fonte);
+    font-weight: 600;
+    border: 0;
+    width: 220px;
+    height: 60px;
+    font-size: 1.2em;
+}
+
+.main__banner__pesquisa__barra {
+    width: 593px;
+    height: 49px;
+    border-radius: 6px;
+    border: 0;
+    background-color: #F5F5F5;
+    background-image: url("https://raw.githubusercontent.com/evertonmissiagia/restaurant-website/5fec0b3ee155183470a6fc25bc7f67c64667c380/assets/img/img_icon_endere%C3%A7o.svg");
+    background-repeat: no-repeat;
+    background-position: 1em;
+    font-size: 1em;
+    font-family: var(--fonte);
+    padding-left: 6%;
 }
 
 .main__banner__pesquisa__delivery {
