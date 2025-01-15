@@ -55,7 +55,7 @@ body {
     display: flex;
     text-decoration: none;
     color: white;
-    background-color: var(--cor-destaque-laranja);
+    background-color: #FFB800;
     border-radius: 15px;
     padding: 3%;
     font-weight: 600;
@@ -122,7 +122,7 @@ body {
 }
 
 .main__banner__button {
-    background-color: #FA6837;
+    background-color: #FFB800;
     color: white;
     border-radius: 6px;
     font-family: var(--fonte);
@@ -218,7 +218,7 @@ body {
 }
 
 .main__popular__items__link__order {
-    background-color: #FA6837;
+    background-color: #FFB800;
     color: white;
     border-radius: 6px;
     font-family: var(--fonte);
@@ -258,5 +258,70 @@ body {
     text-align: center;
 
     
+}
+
+.main__banner__2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 100px;
+}
+
+.main__banner__2__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%;
+    height: 400px;
+    gap: 15px;
+    font-family: var(--fonte);
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #929292;
+    text-align: center;
+    padding-top: 45px;
+
+}
+
+.main__banner__2__info__titulo {
+    color: black;
+    font-size: 2em;
+}
+
+.main__banner__2__img {
+    border-radius: 10px;
+}
+
+.main__banner__2__info__link {
+    text-decoration: none;
+    background-color: #FFB800;
+    color: white;
+    border-radius: 6px;
+    font-family: var(--fonte);
+    font-weight: 700;
+    border: 0;
+    height: 60px;
+    font-size: 0.9em;
+    width: 95%;
+    text-align: center;
+    align-content: center;
+
+}
+
+.main__banner__2__info__link:hover {
+    background-color: var(--cor-destaque-laranja);
+}
+
+.main__banner__button:hover {
+    background-color: var(--cor-destaque-laranja);
+}
+
+.main__popular__items__link__order:hover {
+    background-color: var(--cor-destaque-laranja);
+}
+
+.header__nav__login:hover {
+    background-color: var(--cor-destaque-laranja);
 }
 
