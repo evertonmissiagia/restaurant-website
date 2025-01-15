@@ -63,3 +63,70 @@ body {
     padding-right: 10px;
     text-align: center;
 }
+
+.main__banner {
+    display: flex;
+    font-family: var(--fonte);
+    background-color: var(--cor-destaque-amarelo);
+
+    margin: 1%;
+}
+
+.main__banner__info {
+    padding: 16%;
+}
+
+.main__banner__info__titulo {
+    font-size: 5em;
+    color: white;
+    font-weight: 800;
+}
+
+.main__banner__info__texto {
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.main__banner__img {
+    flex-direction: column;
+    justify-content: end;
+    align-self: flex-end;
+}
+
+.main__banner__pesquisa {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 8%;
+    border-radius: 20px;
+
+}
+
+.main__banner__pesquisa__delivery {
+    background-color: #FEF1EA;
+    border-radius: 6px;
+    font-family: var(--fonte);
+    font-size: 1.2em;
+    color: #FFAE01;
+    font-weight: 600;
+    border: 0;
+    width: 148px;
+    height: 38px;
+}
+
+.main__banner__pesquisa__retirada {
+    background-color: transparent;
+    border-radius: 6px;
+    font-family: var(--fonte);
+    font-size: 1.2em;
+    color: #757575;
+    font-weight: 600;
+    border: 0;
+    width: 148px;
+    height: 38px;
+}
+
+.main__banner__pesquisa__delivery__icon, .main__banner__pesquisa__retirada__icon {
+    padding-right: 10px;
+    text-align: center;
+}
