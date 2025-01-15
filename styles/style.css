@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -47,6 +48,7 @@ body {
     padding: 0.5%;
     width: 250px;
     text-align: center;
+    border: 0;
 }
 
 .header__nav__login {
@@ -66,6 +68,7 @@ body {
 
 .main__banner {
     display: flex;
+    flex-direction: row; /* Ensures proper layout */
     font-family: var(--fonte);
     background-color: var(--cor-destaque-amarelo);
     width: 100%;
@@ -73,7 +76,10 @@ body {
 }
 
 .main__banner__info {
-    padding: 13%;
+    padding-top: 135px;
+    padding-left: 150px;
+    padding-bottom: 132px;
+    padding-right: 100px;
 }
 
 .main__banner__info__titulo {
@@ -85,12 +91,16 @@ body {
 .main__banner__info__texto {
     font-size: 1.6em;
     font-weight: 500;
+    padding-bottom: 4%;
 }
 
 .main__banner__img {
     flex-direction: column;
     justify-content: end;
     align-self: flex-end;
+
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 .main__banner__pesquisa {
@@ -98,7 +108,8 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     background-color: white;
-    padding: 3% 3% 3% 4%;
+    padding: 3% 5% 3% 4%;
+    padding-right: 50px;
     border-radius: 20px;
     gap: 20px;
 
@@ -120,6 +131,10 @@ body {
     width: 220px;
     height: 60px;
     font-size: 1.2em;
+    background-image: url("https://raw.githubusercontent.com/evertonmissiagia/restaurant-website/34315e5cd26c421c4df8ecb4930236fbd4a34fbf/assets/img/img_icon_lupa.svg");
+    background-repeat: no-repeat;
+    background-position: 1em;
+    padding-left: 3%;
 }
 
 .main__banner__pesquisa__barra {
@@ -164,3 +179,84 @@ body {
     padding-right: 10px;
     text-align: center;
 }
+
+.main__popular__items__titulo {
+    font-family: var(--fonte);
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 55px;
+    font-size: 2.3em;
+}
+
+.main__popular__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: var(--fonte);
+    font-weight: 600;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.main__popular__items__food {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 80px;
+}
+
+.main__popular__items__img {
+    border-radius: 20px;
+}
+
+.main__popular__items__link__place {
+    text-decoration: none;
+    color: #FFB30E;
+    background-image: url("https://raw.githubusercontent.com/evertonmissiagia/restaurant-website/34315e5cd26c421c4df8ecb4930236fbd4a34fbf/assets/img/img_icon_endere%C3%A7o.svg");
+    background-repeat: no-repeat;
+    padding-left: 8%;
+}
+
+.main__popular__items__link__order {
+    background-color: #FA6837;
+    color: white;
+    border-radius: 6px;
+    font-family: var(--fonte);
+    font-weight: 600;
+    border: 0;
+    height: 50px;
+    font-size: 0.9em;
+    width: 100%;
+}
+
+.main__instruction__titulo {
+    background-color: #FFF4DE;
+    font-family: var(--fonte);
+    color: #F17228;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 2.6em;
+    width: 100%;
+}
+
+.main__instruction {
+    background-color: #FFF4DE;
+    display: flex;
+    flex-direction: row;
+    font-family: var(--fonte);
+    font-size: 22px;
+    width: 100%;
+    padding-bottom: 70px;
+    padding-right: 100px;
+    padding-left: 100px;
+    gap: 120px;
+}
+
+.main__instruction__item {
+    text-align: center;
+
+    
+}
+
