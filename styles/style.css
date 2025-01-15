@@ -265,6 +265,7 @@ body {
     flex-direction: row;
     justify-content: center;
     padding-top: 100px;
+    padding-bottom: 100px;
     gap: 100px;
 }
 
@@ -325,3 +326,81 @@ body {
     background-color: var(--cor-destaque-laranja);
 }
 
+.main__contact {
+    display: flex;
+    flex-direction: row;
+    background-color: #212121;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    gap: 150px;
+    font-family: var(--fonte);
+}
+
+.main__contact__info {
+    display: flex;
+    flex-direction: row;
+    color: #F5F5F5;
+    gap: 100px;
+    font-size: 1.1em;
+}
+
+.main__contact__info__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+} 
+
+.main__contact__redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.4em;
+    color: #F5F5F5;
+    gap: 15px;
+}
+
+.main__contact__redes__rede {
+    display: flex;
+    gap: 15px;
+}
+
+.main__contact__redes__email {
+    width: 350px;
+    height: 49px;
+    border-radius: 6px;
+    border: 0;
+    background-color: #424242;
+    color: #ADADAD;
+    font-size: 1em;
+    font-family: var(--fonte);
+    padding-left: 2%;
+}
+
+.main__contact__redes__botao {
+    background-color: #FFB800;
+    color: white;
+    border-radius: 6px;
+    font-family: var(--fonte);
+    font-weight: 600;
+    border: 0;
+    height: 50px;
+    font-size: 0.9em;
+    width: 20%;
+}
+
+.main__contact__redes__cadastro {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #212121;
+    color: #ADADAD;
+    font-family: var(--fonte);
+    font-size: 1.2em;
+    padding-bottom: 20px;
+}
